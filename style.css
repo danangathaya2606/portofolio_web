@@ -84,11 +84,11 @@ body {
   align-items: center;
   width: 150px;
   height: 100%;
-  background: #00abf0;
+  background: transparent;
   border: 2px solid #00abf0;
   border-radius: 8px;
   font-size: 19px;
-  color: #081b29;
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 1px;
@@ -98,20 +98,7 @@ body {
 }
 
 .btn-box a:hover {
-  color: #00abf0;
-}
-
-.btn-box a:nth-child(2) {
-  background: transparent;
-  color: #00abf0;
-}
-
-.btn-box a:nth-child(2):hover {
   color: #081b29;
-}
-
-.btn-box a:nth-child(2)::before {
-  background: #00abf0;
 }
 
 .btn-box a::before {
@@ -121,7 +108,7 @@ body {
   left: 0;
   width: 0;
   height: 100%;
-  background: #081b29;
+  background: #00abf0;
   z-index: -1;
   transition: 0.5s;
 }
